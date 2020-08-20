@@ -1,0 +1,60 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 16, 2020, 7:16:09 PM
+    Author     : Dell
+*/
+
+#banner_image{
+    padding-top: 75px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background-size: cover;
+    background: url("img/banner.jpg") no-repeat center center;  
+   
+    
+   }
+
+   
+   
+   
+
+
+   footer{
+           padding: 10px 0;
+           background-color: #101010;
+           color: #9d9d9d;
+           bottom: 0;
+           width: 100%;
+
+   }
+   
+   .banne{
+    padding-bottom : 6%;
+padding-top : 10%;
+margin-top: 30%;
+margin-bottom: 10%;
+background-color: rgba(0,0,0,0.3);
+max-width: 500px;
+position: relative;
+   }
+   
+   .abc{
+       background-color: rgba(250,250,250,0.1);
+   }
+   
+   .ab:hover{
+       background-color: rgba(0,0,255,0.1);
+   }
+   
+   .cd{
+              background-color: rgba(250,0,0,0.1);
+
+       
+   }
+ 
+   
