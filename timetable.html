@@ -158,6 +158,59 @@
         <div class="note">
         <div class="container">
             <p><b>Note:-</b>just click on the subject to enter google meet at respective time</p>
+            <form action="https://docs.google.com/forms/d/e/1FAIpQLSdG4GTVZSi3uq8Hgbl-hjnArRm-OCRQ_Nb_TeMdsHfWaMiUMg/formResponse"
+      target="_self"
+      id="bootstrapForm"
+      method="POST">
+    <fieldset>
+        <h2>Contact Information<br><small>please fill this demo form</small></h2>
+    </fieldset>
+    <fieldset>
+        <legend for="">Email</legend>
+        <div class="form-group">
+            <input id="emailAddress" type="email" name="emailAddress" class="form-control" required>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "short" id: "1633920210" -->
+    <fieldset>
+        <legend for="1633920210">Name</legend>
+        <div class="form-group">
+            <input id="2005620554" type="text" name="entry.2005620554" class="form-control" required>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "paragraph" id: "790080973" -->
+    <fieldset>
+        <legend for="790080973">Address</legend>
+        <div class="form-group">
+            <textarea id="1065046570" name="entry.1065046570" class="form-control" required></textarea>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "short" id: "1770822543" -->
+    <fieldset>
+        <legend for="1770822543">Phone number</legend>
+        <div class="form-group">
+            <input id="1166974658" type="text" name="entry.1166974658" class="form-control" >
+        </div>
+    </fieldset>
+
+    <input type="hidden" name="fvv" value="1">
+    <input type="hidden" name="fbzx" value="6437941482347793537">
+    <!--
+        CAVEAT: In multipages (multisection) forms, *pageHistory* field tells to google what sections we've currently completed.
+        This usually starts as "0" for the first page, then "0,1" in the second page... up to "0,1,2..N" in n-th page.
+        Keep this in mind if you plan to change this code to recreate any sort of multipage-feature in your exported form.
+        We're setting this to the total number of pages in this form because we're sending all fields from all the section together.
+    -->
+    <input type="hidden" name="pageHistory" value="0">
+
+    <input class="btn btn-primary" type="submit" value="Submit">
+</form>
             
         </div></div>
               <footer>
